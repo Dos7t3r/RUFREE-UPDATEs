@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "version": "0.1.3-beta23",
+      "date": "2026-09-29",
+      "title": {
+        "zh": "课程资料直达 Assistant",
+        "en": "Materials opens in Assistant"
+      },
+      "changes": [
+        {
+          "zh": "课程资料入口可直接开始大纲分析，同时保留先选课程再上传和文档审核的操作。",
+          "en": "Start syllabus analysis directly from Materials, with course-first upload and document review still available."
+        },
+        {
+          "zh": "上传的课程资料可以继续在 Assistant 中讨论，无需重复上传。",
+          "en": "Continue discussing uploaded course materials in Assistant without uploading them again."
+        }
+      ]
+    },
+    {
+      "version": "0.1.3-beta22",
+      "date": "2026-09-28",
+      "title": {
+        "zh": "移动端顶栏与导航反馈改进",
+        "en": "Mobile header and navigation improvements"
+      },
+      "changes": [
+        {
+          "zh": "窄屏日历控件可以自动换行，避免按钮被裁切。",
+          "en": "Calendar controls wrap on narrow screens so buttons remain visible."
+        },
+        {
+          "zh": "切换页面时显示渐进加载提示，并在目标页面准备完成后结束。",
+          "en": "Page navigation shows loading progress until the destination is ready."
+        }
+      ]
+    },
+    {
+      "version": "0.1.3-beta21",
+      "date": "2026-09-28",
+      "title": {
+        "zh": "为课表留出更多空间",
+        "en": "More room for the calendar"
+      },
+      "changes": [
+        {
+          "zh": "周视图概览和移动端好友状态默认收起，需要时可展开。",
+          "en": "The week overview and mobile friend status start collapsed and can be expanded when needed."
+        },
+        {
+          "zh": "日期标题更紧凑，让同一屏可以显示更多课表内容。",
+          "en": "Compact date headings leave more room for the timetable."
+        }
+      ]
+    }
+  ]
+}
