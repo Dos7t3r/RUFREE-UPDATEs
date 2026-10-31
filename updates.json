@@ -2,6 +2,44 @@
   "schemaVersion": 1,
   "releases": [
     {
+      "version": "0.1.3-beta38",
+      "date": "2026-10-31",
+      "title": {
+        "zh": "Android 消息与贴纸更新汇总",
+        "en": "Android Messages and sticker updates"
+      },
+      "changes": [
+        {
+          "zh": "Android 消息：新增私聊、群聊和课程房，支持未读数、搜索、回复、编辑、删除，以及图片和文件。",
+          "en": "Android Messages: Direct chats, groups and course rooms now support unread counts, search, replies, editing, deletion, photos and files."
+        },
+        {
+          "zh": "后台通知：Android 在后台也能接收聊天系统通知，点击后打开对应会话；支持单个会话静音。",
+          "en": "Background notifications: Android receives chat system notifications in the background. Tap to open the conversation, with per-chat mute controls."
+        },
+        {
+          "zh": "Android 1.2.0：旧版安装时如提示签名不匹配，需要卸载后重装一次；之后的版本可直接更新。",
+          "en": "Android 1.2.0: If upgrading from an older app reports a signature mismatch, uninstall and reinstall once. Later versions can update in place."
+        },
+        {
+          "zh": "自定义贴纸：支持上传、裁剪、发送和收藏贴纸，动图也可保留动画；贴纸会经过内容审核。",
+          "en": "Custom stickers: Upload, crop, send and save stickers, including animated images. Stickers undergo content review."
+        },
+        {
+          "zh": "Telegram 贴纸：支持导入贴纸包，也可一次导入多个包，并查看每个包的进度；已添加的包会自动跳过。",
+          "en": "Telegram stickers: Import a sticker pack or several packs together, with progress for each pack. Packs already added are skipped."
+        },
+        {
+          "zh": "贴纸面板：新增贴纸包图标导航，点击即可跳转；贴纸消息的时间显示更清楚。",
+          "en": "Sticker picker: Pack icons let you jump between packs, and sticker message timestamps are easier to read."
+        },
+        {
+          "zh": "贴纸性能：贴纸接近屏幕时才加载、可见时才播放；面板优先显示缓存，改善大量动图时的打开与滚动体验。",
+          "en": "Sticker performance: Stickers load near the screen and play while visible. The picker opens from its cache for smoother loading and scrolling with many animations."
+        }
+      ]
+    },
+    {
       "version": "0.1.3-beta37",
       "date": "2026-10-16",
       "title": {
