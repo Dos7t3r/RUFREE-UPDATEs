@@ -2,6 +2,76 @@
   "schemaVersion": 1,
   "releases": [
     {
+      "version": "0.2.0",
+      "date": "2026-11-13",
+      "title": {
+        "zh": "自习室、考试提醒与日历新卡片",
+        "en": "Study rooms, exam alerts and new calendar cards"
+      },
+      "changes": [
+        {
+          "zh": "自习室：可以创建或加入自习室，实时看到谁在一起学习；房间里有聊天、计时和自习报告，并带 AI 点评。「我的自习足迹」汇总你的累计时长和里程碑。",
+          "en": "Study rooms: Create or join a study room and see who is studying with you in real time. Rooms have chat, a timer and study reports with AI review, and My study trail shows your totals and milestones."
+        },
+        {
+          "zh": "自习室音乐与迷你窗口：房间支持点歌歌单，可以从 Spotify 或 Apple Music 导入歌曲，歌词逐句同步；媒体键可直接控制，还有画中画迷你窗口，切到别的页面也能继续看房间。",
+          "en": "Room music and mini window: Rooms have song playlists, imports from Spotify or Apple Music and synced lyrics. Media keys control playback, and a picture-in-picture mini window keeps the room visible while you work elsewhere."
+        },
+        {
+          "zh": "生态缸（测试）：自习座位新增可选的「生态缸」视图，默认座位视图不变。",
+          "en": "Terrarium (beta): An optional Terrarium view for study seats, as a beta. The default seat view is unchanged."
+        },
+        {
+          "zh": "好友考试打气：可以为好友自己的考试打气，不再局限于共同考试；考试周的今日页会优先展示考试，并有可选的考试日推送提醒。",
+          "en": "Cheering friends on exams: You can cheer a friend on their own exam, not only a shared one. In exam week the Today page leads with exams, and an optional exam day push reminder is available."
+        },
+        {
+          "zh": "考试改期提醒：当课程公告把考试改到另一天时会提醒你，并显示考试信息的来源；同课同学的考试也会一并列出。",
+          "en": "Exam change alerts: You are alerted when a course announcement moves an exam to another day, with the source of each exam shown. Classmates' exams for the same course are listed together."
+        },
+        {
+          "zh": "日历卡片与分道：所有类型的事件使用同一套卡片布局，文字整行显示而不是被截断；课程重叠时按人分道，每节课保持完整；回到今天只滚动一次。",
+          "en": "Calendar cards and lanes: Every event type shares one card layout with whole lines instead of cut text. Overlapping classes get per-person lanes so each stays whole, and Jump to today scrolls once."
+        },
+        {
+          "zh": "重要日期：各课程的截止日期合并为重要日期，并有「今天截止」的提示；报名截止来自官方日期，日期栏标签更安静。",
+          "en": "Important dates: Deadlines across courses merge into important dates with due today wording. Registration deadlines come from official dates, and the day header tag is quieter."
+        },
+        {
+          "zh": "日历导出：导出对话框改为 Glacier 风格，推荐订阅链接放在首位，一次性文件折叠在下方；订阅链接最多 5 个，撤销即删除。",
+          "en": "Calendar export: The export dialog now follows the Glacier look, with the recommended live feed first and the one-time file folded below. At most 5 live feeds, and revoking one deletes it."
+        },
+        {
+          "zh": "表情广场：可以在表情广场浏览并添加已审核的贴纸包；长按聊天里的贴纸即可查看并添加整包；贴纸选择器打开更快。",
+          "en": "Sticker plaza: Browse and add approved sticker packs in the sticker plaza. Long press a sticker in chat to view and add its whole pack, and the sticker picker opens faster."
+        },
+        {
+          "zh": "聊天中的自习室与链接：聊天里可以发送自习室卡片，粘贴自习室链接会自动变成卡片，视频链接也有预览。",
+          "en": "Study room and link cards in chat: Send a study room card from the composer, and pasted study room links turn into cards. Video links get a preview."
+        },
+        {
+          "zh": "好友邀请链接：可以生成好友邀请链接，对方打开全新设计的邀请页即可加好友，页面支持中英文切换。",
+          "en": "Friend invite links: Create a friend invite link. The recipient opens a redesigned invite page to add you, with a Chinese and English switch."
+        },
+        {
+          "zh": "AI 助手：助手思考时显示极光环动效和实时状态；可以直接问「我有哪些好友」，检索更可靠，确认事项后日历会立即刷新。",
+          "en": "AI assistant: The assistant shows an aurora ring and live status while thinking. You can ask who your friends are, retrieval is more reliable, and the calendar refreshes right after you confirm items."
+        },
+        {
+          "zh": "工具中心：所有工具集中在一个分组列表里，并显示实时状态；同课同学页面重新设计，网页标题也更清晰。",
+          "en": "Tools hub: All tools live in one grouped list with live status. The classmates page is redesigned and browser tab titles are clearer."
+        },
+        {
+          "zh": "Android 通知：Android 现在可以通过系统推送接收全部类型的通知，不再只有聊天消息。",
+          "en": "Android notifications: Android now receives every kind of system notification, not just chat messages."
+        },
+        {
+          "zh": "隐私说明：隐私说明新增了聊天内容、管理员访问记录和 AI 内容审核的披露。",
+          "en": "Privacy notice: The privacy notice now discloses chat content, audited administrator access and AI content moderation."
+        }
+      ]
+    },
+    {
       "version": "0.1.3-beta38",
       "date": "2026-10-31",
       "title": {
